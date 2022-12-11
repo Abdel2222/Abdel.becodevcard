@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     background-color: #000;
     background: url(assassins-creed-altair.gif) center/cover fixed;
+    opacity: 0.7;
 
 }
 
@@ -72,31 +73,55 @@ video {
     z-index: 2;
     pointer-events: none;
     mix-blend-mode: screen;
+    opacity: 0.3;
+    z-index: 1;
 
 
 }
+
 .first {
-    position: relative;
+    
+    width: 100%;
+    text-align: center;
 
-    border: 20px #ff022c solid;}
+   
+    filter: url(#Fire);
 
-.first h3 {
-  
+}
+
+ h3 {
+    margin: auto;
+    border: 20px #ff022c solid;
+
     font-weight: 200;
-    -webkit-box-reflect:below -120px linear-gradient
-    (transparent,#001)
-    text-shadow: 0 0 10px #ff8c3b
-     0 0 10px #ff8c3b 
-     0 0 10px #ff8c3b 0 
-     0 10px #ff8c3b 0 
-     0 10px #ff8c3b;
+    -webkit-box-reflect: below -120px linear-gradient (transparent, #001) ;
+    text-shadow: 0 0 10px #ff8c3b ,
+    0 0 10px #ff8c3b,
+     0 0 10px #ff8c3b ,
+     0 0 10px #ff8c3b ,
+     0 0 10px #ff8c3b;
+
 
 
 
 }
+svg{
+    width: 0;
+    height: 0;
+}
 
-.footer a {
-    position: relative;
+.footer {
+    position: fixed;
 
-    bottom: 120px;
+    font-size: 12px;
+    
+    top:30px;
+    margin-top: 50px;
+    z-index: 3;;
+
+}
+a:hover{
+    color: gold;
+    margin-top: 80px;
+    
 }
