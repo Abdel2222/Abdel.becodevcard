@@ -30,7 +30,7 @@ h1 {
     font-size: 4em;
     font-weight: 900;
     color: #fff;
-    z-index: 1;
+
     overflow: hidden;
 
 }
@@ -80,32 +80,33 @@ video {
 }
 
 .first {
-    
+
     width: 100%;
     text-align: center;
 
-   
+
     filter: url(#Fire);
 
 }
 
- h3 {
+h3 {
     margin: auto;
     border: 20px #ff022c solid;
 
     font-weight: 200;
-    -webkit-box-reflect: below -120px linear-gradient (transparent, #001) ;
-    text-shadow: 0 0 10px #ff8c3b ,
-    0 0 10px #ff8c3b,
-     0 0 10px #ff8c3b ,
-     0 0 10px #ff8c3b ,
-     0 0 10px #ff8c3b;
+    -webkit-box-reflect: below -120px linear-gradient (transparent, #001);
+    text-shadow: 0 0 10px #ff8c3b,
+        0 0 10px #ff8c3b,
+        0 0 10px #ff8c3b,
+        0 0 10px #ff8c3b,
+        0 0 10px #ff8c3b;
 
 
 
 
 }
-svg{
+
+svg {
     width: 0;
     height: 0;
 }
@@ -114,14 +115,15 @@ svg{
     position: fixed;
 
     font-size: 12px;
-    
-    top:30px;
+
+    top: 30px;
     margin-top: 50px;
-    z-index: 3;;
+
 
 }
-a:hover{
+
+a:hover {
     color: gold;
     margin-top: 80px;
-    
+
 }
